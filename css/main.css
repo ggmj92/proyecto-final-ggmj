@@ -1,0 +1,41 @@
+*{
+
+}
+
+/* navigation */
+
+nav {
+  display: flex;
+  justify-content: center;
+
+}
+ul {
+  list-style-type: none;
+  padding: 10px;
+  overflow: hidden;
+}
+
+li {
+ 
+}
+
+li a {
+  display: flex;
+  justify-content: center;
+}
+
+/* bandcamp embeded*/
+
+div.bandcamp {
+  display: flex;
+  justify-content: center;
+}
+
+/*768*/
+/* navigation 768 */
+
+/*992*/
+
+/*1200*/
+
+
