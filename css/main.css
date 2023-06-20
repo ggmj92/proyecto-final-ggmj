@@ -1,41 +1,294 @@
-*{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
 
 }
 
-/* navigation */
+/* ------------------HEADER---------------------------*/
+
+header {
+  background-color: hwb(350 31% 40%);
+}
 
 nav {
   display: flex;
-  justify-content: center;
-
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: darkblue;
 }
+  
+
 ul {
   list-style-type: none;
-  padding: 10px;
-  overflow: hidden;
+  text-decoration: none;
 }
 
-li {
- 
-}
 
-li a {
-  display: flex;
-  justify-content: center;
-}
-
-/* bandcamp embeded*/
-
-div.bandcamp {
-  display: flex;
-  justify-content: center;
-}
+@media screen and (min-width:768px) {}
 
 /*768*/
-/* navigation 768 */
+
+@media screen and (min-width:992px) {
+  display: flex: ;
+}
 
 /*992*/
 
+@media screen and (min-width:1200px) {}
+
 /*1200*/
 
+/* ------------------MAIN HOME------------------------*/
 
+main {
+  background-color: rgba(16, 16, 76, 0.852);
+}
+
+/*.imgPassport {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+
+
+
+@media screen and (min-width:768px) {
+  
+  .imgPassport {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+}
+
+/*768*/
+
+@media screen and (min-width:992px) {
+
+  .imgPassport {
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+
+}
+
+/*992*/
+
+@media screen and (min-width:1200px) {
+
+  .imgPassport {
+    margin-left: 800px;
+    margin-right: 800px;
+  }
+
+}
+
+/*1200*/
+
+/* ------------------BIO------------------------------*/
+
+.imgSunflowers {
+  margin-top: 40px;
+}
+
+
+@media screen and (min-width:768px) {}
+
+/*768*/
+
+@media screen and (min-width:992px) {}
+
+/*992*/
+
+@media screen and (min-width:1200px) {}
+
+/*1200*/
+
+/* ------------------PORTFOLIO------------------------*/
+
+section.mediaSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+
+@media screen and (min-width:768px) {
+
+  section.mediaSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/*768*/
+
+@media screen and (min-width:992px) {
+  
+  section.mediaSection {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+/*992*/
+
+@media screen and (min-width:1200px) {
+
+  section.mediaSection {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+}
+
+/*1200*/
+
+/* ------------------CONTACT--------------------------*/
+
+main.contactMain {
+  background-color: white;
+
+}
+
+.formulario {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #120d6f;
+  border-radius: 10px;
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #2108ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type=submit]:hover {
+  background-color: #120d6f;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #120d6f;
+  padding: 20px;
+}
+
+section.contactInfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-content: space-between;
+  align-items: baseline;
+  text-align: center;
+}
+
+.email {
+  background-color: white;
+  width: 100%;
+  height: auto;
+}
+
+.telephone {
+  background-color: white;
+  width: 100%;
+  height: auto;
+}
+
+.linkedin {
+  background-color: white;
+  width: 100%;
+  height: auto;
+}
+
+.bandcamp {
+  background-color: white;
+  width: 100%;
+  height: auto;
+}
+
+.instagram {
+  background-color: white;
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {}
+
+/*768*/
+
+@media screen and (min-width:992px) {}
+
+/*992*/
+
+@media screen and (min-width:1200px) {}
+
+/*1200*/
+
+/* ------------------FOOTER---------------------------*/
+
+footer {
+  background-color: hwb(350 31% 40%);
+}
+
+
+
+@media screen and (min-width:768px) {}
+
+/*768*/
+
+@media screen and (min-width:992px) {}
+
+/*992*/
+
+@media screen and (min-width:1200px) {}
+
+/*1200*/

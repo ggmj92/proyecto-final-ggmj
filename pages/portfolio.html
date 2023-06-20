@@ -5,40 +5,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/main.css">
-    <title>Portfolio</title>
+    <title>portfolio</title>
+</head>
 
-
-    <style>
-        body {
-            background-image: url(../assets/image/mauwnt\ copy.jpg);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-        }
-    </style>
-
+<body>
     <header>
-        <i>
-            <h1>what have you done?</h1>
-        </i>
+
+        <h1>what have you done?</h1>
+
         <nav>
             <ul>
                 <li><a href="../index.html">home</a></li>
-                <li><a href="./biography.html">biography</a></li>
-                <li><a href="./contact.html">contact</a></li>
+                <li><a href="biography.html">biography</a></li>
+                <li><a href="contact.html">contact</a></li>
             </ul>
         </nav>
-        <section>
-    </header>
-</head>
 
-<body class="portfolio">
-    <div class="bandcamp">
-    <iframe style="border: 0; width: 350px; height: 470px;"
-        src="https://bandcamp.com/EmbeddedPlayer/album=2028870628/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
-        seamless><a href="https://montananegra.bandcamp.com/album/canciones-de-berl-n">Canciones de Berlín by Montaña
-            negra</a></iframe>
-    </div>
+    </header>
+
+    <main>
+
+        <section class="mediaSection">
+
+            <div class="videoPlayer">
+
+                <video controls>
+                    <source src="../assets/video/La Escena.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+            </div>
+
+            <div class="videoTexto">
+                <p>La Escena Live at Rock in Bembos: Live sound mixing. Lima, Peru - 2011</p>
+            </div>
+
+
+            <div class="bandcampPlayer">
+
+                <iframe style="border: 0; width: 350px; height: 470px;"
+                    src="https://bandcamp.com/EmbeddedPlayer/album=2028870628/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+                    seamless>
+                    <a href="https://montananegra.bandcamp.com/album/canciones-de-berl-n">Canciones de Berlín by Montaña
+                        Negra
+                    </a>
+                </iframe>
+
+            </div>
+
+            <div class="bandcampTexto">
+                <p>Canciones de Berlín - Montaña Negra: Mixing, production and mastering. Mixing on two tracks and
+                    assistant engineer in mastering sessions on this EP from Peruvian singer-songwriter Montaña Negra.
+                    Barcelona, Spain - 2017</p>
+            </div>
+
+
+            <div class="audioPlayer">
+                <audio controls>
+                    <source src="../assets/audio/No Quemen la Ciudad.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="audioTexto">
+                <p>En Dykkerfortelling: Sound Design, Music Production, Mixing. Collaboration with Norwegian artist Lill
+                    Maria Hansen. Madrid, Spain - 2017</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>© copyright 2023 - madrid, spain</p>
+
+    </footer>
+
 </body>
 
 </html>

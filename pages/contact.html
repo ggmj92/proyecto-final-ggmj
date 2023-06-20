@@ -2,50 +2,87 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/main.css">
-  <title>Contact</title>
-
-  <style>
-    body {
-      background-image: url(../assets/image/huata\ copy.jpg);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-    }
-  </style>
-  <header>
-    <i>
-      <h1>where are you?</h1>
-    </i>
-    <nav>
-      <ul>
-        <li><a href="../index.html">home</a></li>
-        <li><a href="./biography.html">biography</a></li>
-        <li><a href="./portfolio.html">portfolio</a></li>
-      </ul>
-    </nav>
-  </header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>contact</title>
 </head>
 
 <body>
-  <table border="1">
-    <tr>
-      <th>name</th>
-      <th>email</th>
-      <th>telephone</th>
-      <th>linkedin</th>
-      <th>instagram</th>
-    </tr>
-    <tr>
-      <td>gabriel garcia-miro</td>
-      <td>ggmj92@gmail.com</td>
-      <td>+34 666.338.693</td>
-      <td>gmjgabriel</td>
-      <td>djlocro</td>
-    </tr>
-  </table>
+    <header>
+
+        <h1>where are you?</h1>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="biography.html">biography</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="contactMain">
+
+        <section class="formulario">
+            <form>
+                <label for="firstName">first name:</label>
+                <input type="text" id="firstName" name="firstName" required autofocus>
+                <label for="lastName">last name:</label>
+                <input type="text" id="lastName" name="lastName" required autofocus>
+                <label for="emailAddress">email address:</label>
+                <input type="text" id="emailAddress" name="emailAddress" required autofocus>
+                <label for="subject">subject:</label>
+                <input type="text" id="subject" name="subject" required autofocus>
+                <label for="message">message:</label>
+                <input type="text" id="message" name="message" required autofocus>
+                <input type="submit" value="submit">
+            </form>
+
+        </section>
+
+        <section class="contactInfo">
+
+            <div class="email">
+                <div class="imgEmail"><img src="../assets/image/gmail.png" alt="email image"></div>
+                <a href="mailto:ggmj92@gmail.com">ggmj92@gmail.com</a>
+            </div>
+
+            <div class="telephone">
+                <div class="imgTelephone"><img src="../assets/image/telephone.png" alt="telephone image"></div>
+                <a href="tel:+34666338693">+34.666.338.693</a>
+            </div>
+
+            <div class="linkedin">
+                <div class="imgLinkedin"><img src="../assets/image/linkedin.png" alt="linkedin image"></div>
+                <a href="https://www.linkedin.com/in/gmjgabriel/">LinkedIn</a>
+            </div>
+
+            <div class="bandcamp">
+                <div class="imgBandcamp"><img src="../assets/image/bandcamp.png" alt="bandcamp image"></div>
+                <a href="https://ggmj.bandcamp.com/">bandcamp</a>
+            </div>
+
+            <div class="instagram">
+                <div class="imgInstagram"><img src="../assets/image/instagram.png" alt="instagram image"></div>
+                <a href="https://www.instagram.com/djlocro/">instagram</a>
+            </div>
+
+        </section>
+
+        <section>
+            <div class="imgCrane"><img src="../assets/image/crain copy.jpg" alt="crane image"></div>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>© copyright 2023 - madrid, spain</p>
+
+    </footer>
+
 </body>
 
 </html>
